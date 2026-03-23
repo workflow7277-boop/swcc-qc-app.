@@ -14,13 +14,13 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Flet
+      - name: Install Dependencies
         run: |
-          pip install flet
+          pip install flet pandas openpyxl
 
       - name: Build APK
         run: |
-          flet build apk --project "SWCC QC"
+          flet build apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v3
