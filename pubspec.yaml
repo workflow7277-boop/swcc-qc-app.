@@ -1,0 +1,18 @@
+name: swcc_qc_assistant
+description: Smart Quality Control Assistant for SWCC Pivot Irrigation Systems
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flet: any
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/

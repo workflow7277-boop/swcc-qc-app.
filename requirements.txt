@@ -1,0 +1,25 @@
+# SWCC QC Assistant - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core UI Framework
+flet>=0.21.0
+
+# Excel reading/writing
+openpyxl>=3.1.0
+xlrd>=2.0.1          # For legacy .xls files
+
+# Image processing + watermark
+Pillow>=10.0.0
+
+# PDF report generation
+reportlab>=4.0.0
+
+# GPS (IP-based fallback)
+geocoder>=1.38.1
+
+# Optional: barcode scanning support
+# pyzbar>=0.1.9
+# opencv-python>=4.8.0
+
+# Build to APK (run separately):
+# flet build apk --project "SWCC QC Assistant"
